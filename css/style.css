@@ -129,8 +129,45 @@ h2 {
     background-color: #34547A;
 }
 
+.projects__row {
+    display: flex;
+}
+
+.item__image {
+    flex: 0 0 50px;
+}
+
+.item__body {
+    flex: 1 1 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.projects__column {
+    flex: 0 1 50%;
+}
+
+.item__row {
+    display: flex;
+}
+
+.item__title {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.item__text {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
 .numbers {
     flex-wrap: nowrap;
+    display: flex;
+
 }
 
 .numbers a + a {
