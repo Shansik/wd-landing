@@ -163,15 +163,43 @@ h2 {
     font-weight: 400;
 }
 
-
 .numbers {
     flex-wrap: nowrap;
     display: flex;
-
 }
 
 .numbers a + a {
     margin-left: 50px;
+}
+
+.skills-list {
+    flex: 1;
+    margin-right: 75px;
+    
+}
+
+.skills-list__text {
+    color: rgba(114, 114, 114, 1);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.skills-list__meter {
+    height: 4px;
+    position: relative;
+    background-color: #C4C4C4;
+    margin-bottom: 30px;
+}
+
+.progress-bar {
+    display: block;
+    height: 100%;
+    background-color: #34547A;
+}
+
+.skills-list__photo {
+    flex: 1;
+    margin-left: 75px;
 }
 
 .what-iwork {
